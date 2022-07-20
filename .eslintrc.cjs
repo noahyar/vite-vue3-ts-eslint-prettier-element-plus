@@ -12,8 +12,8 @@ module.exports = {
   },
   plugins: ['vue', '@typescript-eslint'],
   rules: {
-    'no-console': import.meta.VITE_BASE_ENV === 'devlopment' ? 0 : 1,
-    'no-debugger': import.meta.VITE_BASE_ENV === 'devlopment' ? 0 : 1,
+    'no-console':0,
+    'no-debugger':0,
     'vue/multi-word-component-names': 0, // vue组件必须使用多个文件名
     'vue/no-multiple-template-root': 0, // vue3可以使用多个根组件
     'import/extensions': [
