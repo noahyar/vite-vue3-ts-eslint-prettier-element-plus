@@ -3,7 +3,7 @@
 </template>
 
 <script setup lang="ts">
-let name='guoyaqi'
+const name = 'guoyaqi'
 console.log(name)
 </script>
 
