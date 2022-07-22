@@ -12,12 +12,12 @@
     "esModuleInterop": true,
     "lib": ["ESNext", "DOM"],
     "skipLibCheck": true,
-    "baseUrl": "./",
     "paths": {
       //配置别名
       "@/*": ["./src/*"]
-    }
+    },
+    "types": ["vite/client", "jest"]
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "tests/*.vue"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
