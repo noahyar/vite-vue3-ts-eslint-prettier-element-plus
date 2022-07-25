@@ -2,9 +2,6 @@
   <div></div>
 </template>
 
-<script setup lang="ts">
-const name = 'guoyaqi'
-console.log(name)
-</script>
+<script setup lang="ts"></script>
 
 <style scoped></style>
